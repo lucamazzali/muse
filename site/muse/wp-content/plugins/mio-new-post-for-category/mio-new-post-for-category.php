@@ -20,6 +20,8 @@ function add_custom_menus(){
 	add_submenu_page( 'edit.php?category_name=art', 'Add New Art', 'Add New Art', 'edit_posts', '../wp-content/plugins/mio-new-post-for-category/new-post-category.php?cat=6');
 	add_menu_page( 'Watch', 'Watch', 'edit_posts', 'edit.php?category_name=watch','','','5.11');
 	add_submenu_page( 'edit.php?category_name=watch', 'Add New Watch', 'Add New Watch', 'edit_posts', '../wp-content/plugins/mio-new-post-for-category/new-post-category.php?cat=7');
+	add_menu_page( 'Magazine', 'Magazine', 'edit_posts', 'edit.php?category_name=magazine','','','5.12');
+	add_submenu_page( 'edit.php?category_name=magazine', 'Add New Magazine', 'Add New Magazine', 'edit_posts', '../wp-content/plugins/mio-new-post-for-category/new-post-category.php?cat=8');
 }
 
 
